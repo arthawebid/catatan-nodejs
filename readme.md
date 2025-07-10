@@ -10,3 +10,15 @@ dengan versi tertentu
 ``bash
 sudo dnf module enable nodejs:<versi_node> -y
 ``bash
+dengan versi terbaru
+``bash
+sudo dnf install nodejs -y
+``bash
+## Memeriksa Versi node dan npm     
+``bash
+node -v
+``bash
+
+``bash
+npm -v
+``bash
