@@ -5,7 +5,14 @@ Untuk menginstal Node.js di AlmaLinux, dapat menggunakan manajer paket DNF. Beri
 ```bash
 sudo dnf update -y
 ```
-2. Aktifkan modul Node.js:
+```bash
+dnf install epel-release
+```
+2. Modul Nodejs
+```bash
+dnf module list nodejs
+```
+3. Aktifkan modul Node.js:
 dengan versi tertentu
 ```bash
 sudo dnf module enable nodejs:<versi_node> -y
