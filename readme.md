@@ -1,5 +1,5 @@
 # Instalasi NodeJS pada AlmaLinux
-Untuk menginstal Node.js di AlmaLinux, dapat menggunakan manajer paket DNF atau NVM (Node Version Manager). Berikut adalah langkah-langkah umum: 
+Untuk menginstal Node.js di AlmaLinux, dapat menggunakan manajer paket DNF. Berikut adalah langkah-langkah umum: 
 ## Instalasi Instruksi
 1. Perbarui sistem:
 ```bash
